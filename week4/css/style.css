@@ -1,0 +1,67 @@
+body {
+    background-color: white;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+}
+
+header, footer {
+    margin: 0 auto;
+    border: 10px solid rgba(116, 89, 62, 1.0);
+    padding: .5rem;
+    background-color: rgba(228, 204, 33, 0.6);
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+header {
+    grid-template-columns: 200px 1fr;
+}
+
+main {
+    margin: 0;
+    background-color: rgba(214, 221, 225, 0.2);
+    padding: 1rem
+}
+
+footer {
+    grid-template-columns: 1fr 300px;
+}
+
+h1 {
+    color: #063d54;
+    font-size: 2.2rem;
+    text-align: center;
+}
+
+h2 {
+    color: #2a70b5;
+}
+
+p {
+    color: black;
+}
+
+/* Class Selectors */
+.page {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.logo {
+    width: 200px;
+    height: auto;
+}
+
+.link {
+    text-decoration: none;
+    color: #063d54
+}
+
+.hero-image {
+    width: 933px;
+    height: auto;
+    margin: 0 auto;
+}
+
