@@ -1,0 +1,154 @@
+body{
+    background-color: rgba(28, 69, 111, .1);
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Oxygen', sans-serif;
+}
+
+header {
+    margin: 0 auto;
+    border: 1px solid rgba(28, 170, 109, 1);
+    padding: .5rem;
+    background-color: rgba(34, 241, 153, 1);
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    color: rgba(28, 69, 111, 1);
+}
+
+h2 {
+    color: rgba(37, 150, 222, 1);
+}
+
+li a {
+    color: rgba(16, 41, 67, 1);
+}
+
+h3 {
+    color: rgba(28, 69, 111, 1);
+}
+
+h4 {
+    margin-bottom: 0px;
+    padding: 10px;
+    color: rgba(16, 41, 67, 1)
+}
+
+p {
+    color: rgba(16, 41, 67, 1);
+}
+
+/* Class Selectors */
+.page {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.title {
+    text-align: center;
+}
+
+.page-navigation {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.page-navigation li {
+    flex: 1 1 auto;
+}
+
+.page-navigation a {
+    display: block;
+    padding: 1rem;
+    text-decoration: none;
+    background-color: rgba(37, 150, 222, 1);
+    border: 1px solid rgba(28, 69, 111, 1);
+    font-size: 1.2rem;
+}
+
+.page-navigation a:hover {
+    color: rgba(247, 0, 145, 1);
+    background-color: rgba(254, 230, 244, 1);
+}
+
+.color-swatches {
+    height: 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    text-align: center;
+    clear: both;
+}
+
+.blue1 {
+    background-color: rgba(37, 150, 222, 1);
+}
+
+.blue2 {
+    background-color: rgba(233, 245, 252, 1);
+}
+
+.blue3 {
+    background-color: rgba(28, 69, 111, 1);
+}
+
+.blue4 {
+    background-color: rgba(16, 41, 67, 1);
+}
+
+.blue3 p, .blue4 p {
+    color: rgba(233, 245, 252, 1);
+}
+
+.green1 {
+    background-color: rgba(34, 241, 153, 1);
+}
+
+.green2 {
+    background-color: rgba(233,254, 245, 1);
+}
+
+.green3 {
+    background-color: rgba(28, 170, 109, 1);
+}
+
+.green4 {
+    background-color: rgba(16, 97, 62, 1);
+}
+
+.green3 p, .green4 p {
+    color: rgba(233,254, 245, 1)
+}
+
+.pink1 {
+    background-color: rgba(247, 0, 145, 1);
+}
+
+.pink2 {
+    background-color: rgba(254, 230, 244, 1);
+}
+
+.pink3 {
+    background-color: rgba(251, 128, 200, 1);
+}
+
+.pink4 {
+    background-color: rgba(99, 0, 58, 1);
+}
+
+.pink4 p {
+    color:rgba(254, 230, 244, 1)
+}
+
+.color-info {
+    padding: 20px 10px;
+}
