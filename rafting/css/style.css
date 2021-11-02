@@ -115,6 +115,7 @@ p {
 
 .action-link {
     display: block;
+    padding: 10px 5px;
     text-decoration: none;
     color: rgba(228, 204, 33, 1.0);
     background-color: rgba(42, 112, 181, 1.0);
@@ -127,11 +128,11 @@ p {
 
 .info-box {
     display: grid;
-    grid-template-columns: 1fr 1fr;  
+    grid-template-columns: 1fr 1fr; 
+    justify-items: center; 
 }
 
 .relax-image {
-    display: flex;
     margin: auto;
     grid-column: 2/3;
     box-shadow: 0 0 20px rgba(116, 89, 62, 0.8);
@@ -146,7 +147,6 @@ p {
 }
 
 .rush-image {
-    display: flex;
     margin: auto;
     grid-column: 1/2;
     grid-row: 2/3;
