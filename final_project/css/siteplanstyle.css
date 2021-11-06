@@ -36,8 +36,6 @@ h3 {
 }
 
 h4 {
-    margin-bottom: 0px;
-    padding: 10px;
     color: rgba(16, 41, 67, 1)
 }
 
@@ -79,6 +77,11 @@ p {
 .page-navigation a:hover {
     color: rgba(247, 0, 145, 1);
     background-color: rgba(254, 230, 244, 1);
+}
+
+.color {
+    margin-bottom: 0px;
+    padding: 10px;
 }
 
 .color-swatches {
