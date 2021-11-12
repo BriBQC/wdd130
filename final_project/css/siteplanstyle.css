@@ -19,6 +19,21 @@ header {
     justify-content: center;
 }
 
+main {
+    margin: 0;
+    background-color: rgba(233, 245, 252, 1);
+    padding: 1rem;
+}
+
+footer {
+    margin: 0 auto;
+    border: 1px solid rgba(28, 170, 109, 1);
+    padding: .5rem;
+    background-color: rgba(34, 241, 153, 1);
+    display: grid;
+    grid-template-columns: 1fr 1fr 150px;
+}
+
 h1 {
     color: rgba(28, 69, 111, 1);
 }
@@ -154,4 +169,72 @@ p {
 
 .color-info {
     padding: 20px 10px;
+}
+
+.homepage-box {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+}
+
+.info-box {
+    padding: 1rem;
+
+}
+
+.mind-image img {
+    height: 300px;
+    margin: auto;
+}
+
+.body-image img {
+    height: 300px;
+    margin: auto;
+    padding: 10px;
+}
+
+.spirit-image img {
+    height: 300px;
+    margin: auto;
+}
+
+.class-images {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+}
+
+.class-images img {
+    height: 100px;
+    width: auto;
+    padding: 10px;
+}
+
+.classes-box {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+}
+
+.learn-images {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+}
+
+.learn-images img {
+    height: 100px;
+    width: auto;
+    padding: 10px;
+}
+
+.learn-box {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    align-items: center;
 }
