@@ -1,5 +1,5 @@
 body {
-    background-color: rgba(228, 204, 33, 0.5);
+    background-color: rgba(228, 204, 33, 0.8);
     font-size: 16px;
     margin: 0;
     padding: 0;
@@ -11,7 +11,7 @@ header, footer {
     margin: 0 auto;
     border: 1px solid rgba(116, 89, 62, 1.0);
     padding: .5rem;
-    background-color: rgba(42, 112, 181, 0.8);
+    background-color: rgba(42, 112, 181, 0.9);
     display: grid;
     align-items: center;
 }
@@ -22,7 +22,7 @@ header {
 
 main {
     margin: 0;
-    background-color: rgba(214, 221, 225, 0.7);
+    background-color: rgba(214, 221, 225, 0.8);
     padding: 1rem
 }
 
@@ -118,13 +118,17 @@ p {
 
 .action-message {
     color: rgba(165, 125, 86, 1.0);
+    font-weight: bold;
 }
 
 .action-link {
     display: block;
-    padding: 10px 5px;
+    padding: 15px;
     text-decoration: none;
     color: rgba(228, 204, 33, 1.0);
+    border-radius: 30px;
+    font-weight: bold;
+    font-size: 1.2rem;
     background-color: rgba(42, 112, 181, 1.0);
 }
 
@@ -165,11 +169,18 @@ p {
     padding: 0 30px;
 }
 
+.copyright-box {
+    justify-self: left;
+}
+
 .social-links img {
     box-shadow: none;
 }
 
-/* About Page */
+.subpage-h2 {
+    text-align: center;
+    color: rgba(116, 89, 62, 1.0);
+}
 
 .team-box {
     display: grid;
@@ -185,7 +196,38 @@ p {
     grid-column: 2/3;
 }
 
-.team-info, .staff-info1, .staff-info2 {
+.team-info, .staff-info1, .staff-info2, .trip-info {
     padding: 0 30px;
     line-height: 1.5rem;
+}
+
+.adventure-banner {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.trip-box {
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.action-button1, .action-button2 {
+    position: absolute;
+}
+
+.action-button1 {
+    top: 394px; left: 300px;
+}
+
+.action-button2 {
+    top: 394px; right: 100px;
+}
+
+.ages-list li {
+    list-style-type: none;
+    padding: 0 50px;
+    color: rgba(6, 61, 84, 1.0);
+    font-size: 1.2rem;
+    font-weight: bold;
 }
