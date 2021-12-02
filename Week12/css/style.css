@@ -13,8 +13,8 @@ body {
     width: 400px;
     border-radius: 20px;
     background-color: white;
-    box-shadow: 10px darkgrey;
     position: relative;
+    box-shadow: 10px darkgrey;
 }
 
 .image {
@@ -85,8 +85,6 @@ h1 {
     transform: scale(1.5, 1.5);
 }
 
-.icon::before {
-    font-family: "Font Awesome 5 Free";
-    font-weight: 900;
-    content: "\f004";
+.icon-box::before {
+    content: "♥";
 }
