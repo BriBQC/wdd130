@@ -14,7 +14,7 @@ body {
     border-radius: 20px;
     background-color: white;
     position: relative;
-    box-shadow: 10px darkgrey;
+    box-shadow: 1px 1px 20px 10px rgb(141 141 141);
 }
 
 .image {
@@ -29,7 +29,7 @@ h1 {
 }
 
 .words {
-    padding: 0 10px 10px 20px;
+    padding: 0 20px 10px 20px;
     color: rgb(117, 117, 117);
     text-align: left;
 }
@@ -41,16 +41,13 @@ h1 {
 }
 
 .sqft {
-    padding: 10px;
     font-size: 12px;
     font-weight: bold;
     font-variant: small-caps;
-    text-align: left;
 }
 
 .details_button {
     text-align: center;
-    align-self: center;
 }
 
 .link {
@@ -74,7 +71,7 @@ h1 {
     padding: 10px;
     top: 20px; right: 20px;
     width: 20px;
-    border-radius: 20px;
+    border-radius: 50%;
     background-color: red;
     color: white;
     text-align: center;
