@@ -69,6 +69,7 @@ p {
     width: 200px;
     height: auto;
     box-shadow: none;
+    grid-template-columns: 1/2;
 }
 
 .mainnav {

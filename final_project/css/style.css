@@ -1,0 +1,162 @@
+body{
+    background-color: rgba(99, 0, 58, 1);
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Oxygen', sans-serif;
+}
+
+header, footer {
+    margin: 0 auto;
+    border: 1px solid rgba(233, 245, 252, 1);
+    padding: .5rem;
+    background-color: rgba(16, 41, 67, 1);
+    display: grid;
+    align-items: center;
+}
+
+header {
+    grid-template-columns: 150px 1fr 150px;
+    grid-template-rows: 150px 1fr;
+}
+
+main {
+    margin: 0;
+    background-color: rgba(233, 245, 252, 1);
+    padding: 1rem;
+}
+
+footer {
+    grid-template-columns: 1fr 200px;
+}
+
+h1 {
+    font-size: 50px;
+    color: rgba(28, 69, 111, 1);
+    font-weight: bold;
+}
+
+li a {
+    color: rgba(16, 41, 67, 1);
+    font-weight: bold;
+}
+
+
+.page {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.title {
+    padding: 10px 10px 20px;
+    color: rgba(233, 245, 252, 1);
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.logo {
+    width: 150px;
+    height: auto;
+    grid-template-columns: 1/2;
+}
+
+.header-box {
+    grid-template-columns: 2/3;
+}
+
+.page-navigation {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.page-navigation li {
+    flex: 1 1 auto;
+}
+
+.page-navigation a {
+    display: block;
+    padding: 1rem;
+    text-decoration: none;
+    background-color: rgba(37, 150, 222, 1);
+    border: 1px solid rgba(28, 69, 111, 1);
+    font-size: 1.2rem;
+}
+
+.page-navigation a:hover {
+    color: rgba(247, 0, 145, 1);
+    background-color: rgba(254, 230, 244, 1);
+}
+
+.register-button {
+    padding: 10px;
+}
+
+.register-link {
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+    color: rgba(16, 41, 67, 1);
+    background-image: 
+        linear-gradient(
+            45deg, 
+            rgba(247, 0, 145, 1), 
+            rgba(254, 230, 244, 1)
+        );
+    border: 1px solid rgba(16, 41, 67, 1);
+    border-radius: 50px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.header-banner {
+    position: relative;
+}
+
+.header-image, .page-image {
+    width: 100%;
+}
+
+.header-image {
+    box-shadow: 0px 0px 20px 5px #6c6c6a;
+}
+
+.page-image {
+    box-shadow: 0px 4px 0px 0px rgb(233 245 252);
+}
+
+.studio-name {
+    position: absolute;
+    top: 70px; left: 100px;
+}
+
+.quote, .page-quote {
+    position: absolute;
+    font-style: italic;
+    font-weight: bolder;
+}
+
+.quote {
+    color: rgba(99, 0, 58, 1);
+    top: 200px; left: 100px;
+    font-size: 18px;
+}
+
+.page-quote {
+    color: rgba(28, 69, 111, 1);
+    top: 70px; left: 100px;
+    font-size: 20px;
+}
+
+.copyright-box {
+    justify-self: left;
+    color: rgba(233, 245, 252, 1)
+}
+
+.social-links {
+    grid-template-columns: 2/3;
+}
