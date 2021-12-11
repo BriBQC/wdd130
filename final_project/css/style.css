@@ -32,9 +32,40 @@ footer {
 }
 
 h1 {
+    margin: 10px 0 0;
     font-size: 50px;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 35px;
     color: rgba(28, 69, 111, 1);
     font-weight: bold;
+    text-align: center;
+}
+
+h3 {
+    font-size: 20px;
+    color: rgba(28, 69, 111, 1);
+    font-weight: bold;
+}
+
+h4 {
+    margin: 10px 0 0;
+    font-size: 18px;
+    color: rgba(28, 69, 111, 1);
+    text-align: center;
+}
+
+h5 {
+    margin: 10px 0 0;
+    font-size: 16px;
+    color:rgba(99, 0, 58, 1);
+    text-align: center;
+}
+
+p {
+    margin: 0;
 }
 
 li a {
@@ -57,9 +88,8 @@ li a {
 }
 
 .logo {
-    width: 150px;
+    width: 140px;
     height: auto;
-    grid-template-columns: 1/2;
 }
 
 .header-box {
@@ -87,30 +117,30 @@ li a {
     font-size: 1.2rem;
 }
 
-.page-navigation a:hover {
+.link:hover {
     color: rgba(247, 0, 145, 1);
     background-color: rgba(254, 230, 244, 1);
 }
 
 .register-button {
-    padding: 10px;
+    padding: 10px 10px 10px 20px;
 }
 
 .register-link {
     display: block;
     padding: 15px;
     text-decoration: none;
-    color: rgba(16, 41, 67, 1);
-    background-image: 
-        linear-gradient(
-            45deg, 
-            rgba(247, 0, 145, 1), 
-            rgba(254, 230, 244, 1)
-        );
-    border: 1px solid rgba(16, 41, 67, 1);
-    border-radius: 50px;
+    color: rgba(233, 254, 245, 1);
+    background-color: rgba(247, 0, 145, 1);
+    border: 1px solid rgba(233, 254, 245, 1);
+    border-radius: 15px;
     font-weight: bold;
     text-align: center;
+}
+
+.register-link:hover {
+    color: rgba(233, 254, 245, 1);
+    background-color: rgba(34, 241, 153, 0.7);
 }
 
 .header-banner {
@@ -150,6 +180,504 @@ li a {
     color: rgba(28, 69, 111, 1);
     top: 70px; left: 100px;
     font-size: 20px;
+}
+
+/* Main Styling */
+.mind-spirit-box {
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+.body-box {
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+
+
+.info-img, .body-img {
+    margin: 10px;
+    width: 300px;
+    box-shadow: 0px 0px 20px 5px #6c6c6a;
+    grid-row: 1/3;
+}
+
+.body-img {
+    grid-column: 2/4;
+}
+
+
+.box-info {
+    margin: auto;
+    width: 450px;
+    text-align: justify;
+    justify-self: center;
+}
+
+.buttons {
+    display: flex;
+    justify-self: center;
+}
+
+.learn-button {
+    align-self: center;
+    text-align: center;
+}
+
+.learn-link {
+    display: block;
+    width: 100px;
+    margin: 0 20px 20px;
+    padding: 20px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgba(16, 41, 67, 1);
+    background-color: rgba(37, 150, 222, 1);
+    border-radius: 20px;
+}
+
+.divider {
+    margin: 20px;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+    align-items: center;
+}
+
+.mini-image {
+    margin: 10px;
+    width: 100px;
+    height: auto;
+    justify-self: center;
+    border-radius: 30px;
+}
+
+.page-title {
+    text-align: center;
+    color: rgba(28, 69, 111, 1);
+}
+
+.learn-title {
+    margin: 0 0 20px;
+    padding: 0 0 20px;
+    text-align: center;
+    color: rgba(28, 69, 111, 1);
+}
+
+
+.classes-box {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.classes-box h3 {
+    font-size: 16px;
+    font-variant: small-caps;
+    font-weight: bold; 
+    color: rgba(16, 97, 62, 1);
+    text-align: center;
+}
+
+.image-group {
+    position: relative;
+    margin: 10px;
+    padding: 10px;
+}
+
+.image-group img {
+    width: 200px;
+}
+
+.hatha1, .hatha2, .hatha3,
+.warrior1, .warrior2, .warrior3 {
+    position: absolute;
+    box-shadow: 0px 0px 10px 10px rgba(34, 241, 153, 0.7);
+}
+
+.hatha1 {
+    z-index: 3;
+    top: 120px;
+    left: 30px;
+}
+
+.hatha2 {
+    z-index: 2;
+    bottom: 20px;
+    right: 100px;
+}
+
+.hatha3 {
+    z-index: 1;
+    top: 70px;
+    right: 25px;
+}
+
+.prana1, .prana2, .prana3,
+.yin1, .yin2, .yin3 {
+    position: absolute;
+    box-shadow: 0px 0px 10px 10px rgba(251, 128, 200, 0.7);
+}
+
+.prana1 {
+    z-index: 1;
+    bottom: 20px;
+    right: 25px;
+}
+
+.prana2 {
+    z-index: 2;
+    top: 90px;
+    left: 30px;
+}
+
+.prana3 {
+    z-index: 3;
+    top: 70px;
+    right: 45px;
+}
+
+.vin1, .vin2, .vin3,
+.nidra1, .nidra2, .nidra3 {
+    position: absolute;
+    box-shadow: 0px 0px 10px 10px rgba(37, 150, 222, 0.7);
+}
+
+.vin1 {
+    z-index: 2;
+    bottom: 20px;
+    left: 70px;
+}
+
+.vin2 {
+    z-index: 3;
+    bottom: 90px;
+    right: 25px;
+}
+
+.vin3 {
+    z-index: 1;
+    top: 100px;
+    left: 30px;
+}
+
+.warrior1 {
+    z-index: 3;
+    bottom: 20px;
+    left: 90px;
+}
+
+.warrior2 {
+    z-index: 2;
+    top: 110px;
+    right: 25px;
+}
+
+.warrior3 {
+    z-index: 1;
+    top: 80px;
+    left: 30px;
+}
+
+.yin1 {
+    z-index: 1;
+    bottom: 20px;
+    right: 25px;
+}
+
+.yin2 {
+    z-index: 2;
+    right: 100px;
+    top: 70px;
+}
+
+.yin3 {
+    z-index: 3;
+    bottom: 80px;
+    left: 30px;
+}
+
+.nidra1 {
+    z-index: 3;
+    top: 50px;
+    left: 80px;
+}
+
+.nidra2 {
+    z-index: 2;
+    left: 30px;
+    bottom: 50px;
+}
+
+.nidra3 {
+    z-index: 1;
+    bottom: 20px;
+    right: 25px;
+}
+
+
+
+.learn-box {
+    display: grid;
+    grid-template-columns: 200px 1fr;
+}
+
+.side-height {
+    height: 100%;
+    border-right: 3px solid rgba(28, 69, 111, 1);
+}
+
+.side-box {
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    text-align: center;
+}
+
+.nav-title {
+    margin: 10px 0 0;
+    padding: 10px 0 0;
+    font-size: 20px;
+    font-weight: bold;
+    color:rgba(16, 41, 67, 1);
+}
+
+.side-nav {
+    margin: 0;
+    padding: 20px;
+    list-style-type: none;
+    line-height: 40px;
+}
+
+.side-nav li {
+    text-decoration: none;
+}
+
+.side-nav a {
+    text-decoration: none;
+}
+
+.learn-content {
+    margin: 0 10px;
+    padding: 0 10px 10px;
+    
+}
+
+.asanas {
+    margin: 0;
+    padding: 0;
+}
+
+.learn-content p {
+    text-align: justify;
+    color:rgba(16, 41, 67, 1);
+}
+
+.asanas-box {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+}
+
+.learn-images {
+    box-shadow: 0px 0px 10px 5px rgba(34, 241, 153, 0.7);
+}
+
+.chakras-box {
+    position: relative;
+    margin: 20px;
+    padding: 10px;
+    height: 500px;
+    border: 10px solid rgba(251, 128, 200, 0.5);
+    box-shadow: 0 0 11px 20px rgba(251, 128, 200, 0.5);
+    border-radius: 50%;
+}
+
+.chakras-img {
+    position: absolute;
+    left: 28%;
+    top: 14%;
+}
+
+.chakras-box h4 {
+    position: absolute;
+    font-weight: bold;
+}
+
+.sahasrara {
+    top: 25px;
+    left: 279px;
+    text-shadow: 0px 0px 20px #e3c326;
+}
+
+.ajna {
+    top: 87px;
+    right: 218px;
+    text-shadow: 0px 0px 20px #7f00ff;
+}
+
+.visuddha {
+    top: 155px;
+    left: 188px;
+    text-shadow: 0px 0px 20px #0800ff;
+}
+
+.anahata {
+    top: 214px;
+    right: 128px;
+    text-shadow: 0px 0px 20px #1fff01;
+}
+
+.manipura {
+    bottom: 224px;
+    left: 108px;
+    text-shadow: 0px 0px 20px #feff00;
+}
+
+.svadhisthana {
+    bottom: 175px;
+    right: 125px;
+    text-shadow: 0px 0px 20px #fd7f00;
+}
+
+.muladhara {
+    bottom: 132px;
+    left: 110px;
+    text-shadow: 0px 0px 20px #fd0101;
+}
+
+
+
+
+.list-box {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+.learn-list {
+    list-style-type: none;
+    padding: 0;
+    line-height: 25px;
+    font-size: 16px;
+    color:rgba(99, 0, 58, 1);
+    text-shadow: 0 0 10px rgba(37, 150, 222, 1);
+}
+
+
+.mantra-ex {
+    display: grid;
+    grid-template-columns: 100px 1fr;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    align-items: center;
+}
+
+.mantra-ex p {
+    margin: 10px;
+    padding: 10px;
+    color:rgba(16, 97, 62, 1);
+}
+
+
+
+.mudra-ex {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    align-items: center;
+}
+
+.mudra-ex h3 {
+    text-shadow: 0 0 20px rgba(37, 150, 222, 1);
+}
+
+.mudra-ex p {
+    margin: 10px;
+    padding: 10px;
+    color:rgba(99, 0, 58, 1);
+}
+
+.mudra-ex img {
+    margin: 10px;
+    box-shadow: 0 0 20px 0 rgba(37, 150, 222, 1);
+}
+
+
+
+.sanskrit-box {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+.sanskrit-box p {
+    margin: 0 10px 10px 0;
+    padding: 10px;
+    text-align: center;
+    text-shadow: 0 0 20px rgba(34, 241, 153, 0.7);
+}
+
+.dhyana {
+    grid-column: 2/6;
+}
+
+.drishti {
+    grid-column: 6/10;
+}
+
+.namaste {
+    grid-row: 2/3;
+    grid-column: 1/4;
+}
+
+.prana {
+    grid-row: 2/3;
+    grid-column: 4/8;
+}
+
+.satya {
+    grid-row: 2/3;
+    grid-column: 8/11;
+}
+
+.tapas {
+    grid-row: 3/4;
+    grid-column: 2/6;
+}
+
+.yoga {
+    grid-row: 3/4;
+    grid-column: 6/10;
+}
+
+.classes-divider {
+    margin: 20px 0 0;
+    padding: 20px 20px 0;
+    display: grid;
+    grid-template-columns: 1fr 100px 1fr;
+    align-items: center;
+}
+
+.divider-image {
+    width: 100px;
+    height: auto;
+    justify-self: center;
+}
+
+.divider-line {
+    width: 75%;
+    border-top: 5px solid rgba(37, 150, 222, 1);
+    border-radius: 10px;
 }
 
 .copyright-box {
